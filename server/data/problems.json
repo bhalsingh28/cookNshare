@@ -1,0 +1,170 @@
+[{
+  "_id": {
+    "$oid": "693ef16b5bb213092b280702"
+  },
+  "title": "The Silent Maximum",
+  "statement": "You are given a list of integers written on a board. One number is the strongest if it is strictly greater than every number that appears before it. Your task is to count how many such strong numbers exist in the list. The first number is always considered strong.",
+  "difficulty": "Easy",
+  "input": "10\n3 4 2 7 5 8 1 9 6 10",
+  "expected_output": "6",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:18:35.623Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:18:35.623Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef16b5bb213092b280703"
+  },
+  "title": "Broken Signal",
+  "statement": "A signal is represented by a sequence of integers. The signal is considered stable if the absolute difference between every pair of consecutive elements is at most 2. Determine whether the given signal is stable or broken. Print YES if stable, otherwise NO.",
+  "difficulty": "Easy",
+  "input": "10\n5 6 7 6 8 7 9 8 7 6",
+  "expected_output": "YES",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef16b5bb213092b280704"
+  },
+  "title": "Hidden Valley",
+  "statement": "An array forms a hidden valley if there exists an index i such that the elements strictly decrease up to i and strictly increase after i. The valley must have at least one element on both sides. Determine whether the given array forms a hidden valley.",
+  "difficulty": "Medium",
+  "input": "10\n9 7 6 4 3 5 6 8 9 10",
+  "expected_output": "YES",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef16b5bb213092b280705"
+  },
+  "title": "Energy Redistribution",
+  "statement": "You are given energy levels of 10 machines. In one move, you may transfer 1 unit of energy from any machine to its immediate right neighbor. You cannot transfer energy to the left. Determine whether it is possible to make the energy levels non-decreasing from left to right.",
+  "difficulty": "Medium",
+  "input": "10\n5 3 6 2 7 4 8 6 9 5",
+  "expected_output": "NO",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:18:35.626Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef16b5bb213092b280706"
+  },
+  "title": "Last Survivor Index",
+  "statement": "Ten warriors stand in a line, each with a strength value. A warrior survives if there is no stronger warrior to their right. Your task is to count how many warriors survive. This problem requires scanning from the right and carefully tracking dominance.",
+  "difficulty": "Hard",
+  "input": "10\n4 7 3 9 2 8 1 6 5 10",
+  "expected_output": "1",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:18:35.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:18:35.627Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef1e70dfa755c88d5db2d"
+  },
+  "title": "The Silent Maximum",
+  "statement": "You are given a list of integers written on a board. One number is the strongest if it is strictly greater than every number that appears before it. Your task is to count how many such strong numbers exist in the list. The first number is always considered strong.",
+  "difficulty": "Easy",
+  "input": "10\n3 4 2 7 5 8 1 9 6 10",
+  "expected_output": "6",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:20:39.395Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:20:39.395Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef1e70dfa755c88d5db2e"
+  },
+  "title": "Broken Signal",
+  "statement": "A signal is represented by a sequence of integers. The signal is considered stable if the absolute difference between every pair of consecutive elements is at most 2. Determine whether the given signal is stable or broken. Print YES if stable, otherwise NO.",
+  "difficulty": "Easy",
+  "input": "10\n5 6 7 6 8 7 9 8 7 6",
+  "expected_output": "YES",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef1e70dfa755c88d5db2f"
+  },
+  "title": "Hidden Valley",
+  "statement": "An array forms a hidden valley if there exists an index i such that the elements strictly decrease up to i and strictly increase after i. The valley must have at least one element on both sides. Determine whether the given array forms a hidden valley.",
+  "difficulty": "Medium",
+  "input": "10\n9 7 6 4 3 5 6 8 9 10",
+  "expected_output": "YES",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef1e70dfa755c88d5db30"
+  },
+  "title": "Energy Redistribution",
+  "statement": "You are given energy levels of 10 machines. In one move, you may transfer 1 unit of energy from any machine to its immediate right neighbor. You cannot transfer energy to the left. Determine whether it is possible to make the energy levels non-decreasing from left to right.",
+  "difficulty": "Medium",
+  "input": "10\n5 3 6 2 7 4 8 6 9 5",
+  "expected_output": "NO",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "693ef1e70dfa755c88d5db31"
+  },
+  "title": "Last Survivor Index",
+  "statement": "Ten warriors stand in a line, each with a strength value. A warrior survives if there is no stronger warrior to their right. Your task is to count how many warriors survive. This problem requires scanning from the right and carefully tracking dominance.",
+  "difficulty": "Hard",
+  "input": "10\n4 7 3 9 2 8 1 6 5 10",
+  "expected_output": "1",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-14T17:20:39.396Z"
+  }
+}]
