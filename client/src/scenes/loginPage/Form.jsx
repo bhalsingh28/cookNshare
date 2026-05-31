@@ -68,7 +68,7 @@ const Form = () => {
       {
         method: "POST",
         body: formData,
-      }
+      },
     );
     const savedUser = await savedUserResponse.json();
     onSubmitProps.resetForm();
@@ -91,7 +91,7 @@ const Form = () => {
         setLogin({
           user: loggedIn.user,
           token: loggedIn.token,
-        })
+        }),
       );
       navigate("/home");
     }

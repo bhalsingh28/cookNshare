@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          CooknShare
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
